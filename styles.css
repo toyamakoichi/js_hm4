@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+
+.bank {
+  background-color: green;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input {
+    margin-bottom: 10px;
+}
+select {
+    width: inherit;
+}
+button{
+    margin-bottom: 10px;
+}
+.client {
+   background-color: white;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.calcSpace {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.calculation {
+    background-color: white;
+    color:black;
+    width: 15vw;
+    height: 10vh;
+    justify-content: space-between;
+    margin:10px;
+}
+.clear {
+    
+    margin-left: auto;
+}

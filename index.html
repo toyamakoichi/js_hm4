@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="bank">
+        <button disabled class="clear">Clear</button>
+        <h1>Bank</h1>
+        <div class="bankItem">
+            <p>Name</p><input name="bankInput" class="name" type="text">
+        </div>
+        <div class="bankItem">
+            <p>Interest rate, %</p><input name="bankInput" class="percent" type="number">
+        </div>
+        <div class="bankItem">
+            <p>Capitalization term</p><input name="bankInput" class="term" type="number">
+        </div>
+        <div class="bankButton">
+            <button disabled class="create">Create</button>
+            
+        </div>
+
+    </div>
+    
+    <div class="client">
+        <h1>Client</h1>
+        <div>
+            <p>Product</p><select id="selection"></select>
+        </div>
+        <div>
+            <p>Sum</p><input class="sum" type="number">
+        </div>
+        <div>
+            <p>Period</p><input class="period" type="number">
+        </div>
+        <button disabled class="calculate">Calculate</button>
+        
+    </div>
+    <div class="calcSpace" id="calcSpace"></div>
+    <script src="index.js "></script>
+</body>
+
+</html>
